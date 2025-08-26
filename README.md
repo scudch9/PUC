@@ -16,7 +16,7 @@
 > Continual Learning (CL) aims to develop AI models that learn effectively from sequential tasks while mitigating catastrophic forgetting. Replay-based methods have emerged as a promising solution for CL, which stores a subset of past exemplars and then replays it to preserve prior knowledge. Existing exemplar selection strategies predominantly focus on feature-space representativeness but overlook output distribution variation. In this work, we identify that neighboring samples in feature space may sustain significantly different output probability distributions. This indicates that the nearest neighbors to class-wise mean feature vectors do not consistently serve as optimal representative samples. We further demonstrate that predictive uncertainty serves as a reliable indicator of such non-representative samples. Building on this insight, we propose Predictive Uncertainty Controller (PUC), which aims to benefit replay-based CL methods by filtering out samples with excessive uncertainty. Extensive experiments validate our approach, showing that PUC consistently enhances CL performance when integrated with existing replay-based methods. 
 
 ## Information before using this repo
-In order to run the code, you will need to configure the paths to match your own system (see class_il/utils/data.py).
+In order to run the code, you will need to configure the paths to match your own system (see ./utils/data.py).
 
 If there are any questions, please feel free to open an issue or contact with the author: **Chunhui Ding** ([chunhuiding9@gmail.com](mailto:aojunlu@stu.scu.edu.cn))
 
